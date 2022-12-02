@@ -1,0 +1,79 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 175px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    height: 450px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.image {
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.description {
+    /* height: 450px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 32px;
+}
+
+.name {
+    color: hsl(228, 13%, 53%);
+    font-size: 15px;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 10px;
+    font-weight: 100;
+}
+
+.description h1 {
+    color: hsl(212, 21%, 14%);
+    font-size: 25px;
+}
+
+.description p {
+    color: hsl(228, 12%, 48%);
+}
+
+.price {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.current-price {
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.hashed-price {
+    font-size: 15px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+
+}
+
+button {
+    width: 235px;
+    height: 45px;
+    background-color: hsl(158, 48%, 19%);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}

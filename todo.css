@@ -1,0 +1,40 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container1,
+.container2,
+.container3,
+.container4 {
+    width: 200px;
+    border: 0.5px solid skyblue;
+    margin: 20px auto;
+    text-align: center;
+    background: #c23c72;
+    background: linear-gradient(69deg, #c23c72 0%, #8eae29 80%);
+    background: -webkit-linear-gradient(69deg, #c23c72 0%, #8eae29 80%);
+    background: -moz-linear-gradient(69deg, #c23c72 0%, #8eae29 80%);
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 0 12px 0 gray;
+}
+
+button {
+    border: none;
+    border-radius: 50%;
+    background-color: lightblue;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 12px gray;
+}
+
+.pseudo-selector ul {
+    background-color: moccasin;
+}
+
+.pseudo-selector li:last-child {
+    list-style-type: none;
+}
